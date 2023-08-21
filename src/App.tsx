@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
+import logo from "./images/network-team-icon.png";
 import "./App.css";
+import "./style.css";
 
 function App_old() {
   return (
@@ -23,7 +24,7 @@ function AppHeader() {
     <header>
       <div id="header-wrapper">
         <div id="my-picture">
-          <img src="network-team-icon.png" width="100" alt="" />
+          <img src={logo} width="100" alt="" />
         </div>
 
         <div id="header-info">
@@ -40,32 +41,12 @@ function ContentWrapper() {
 
 function AppFooter() {
   return (
-    <tfoot>
-      <tr>
-        <td></td>
-        <td>
-          <input type="text" name="promotion" placeholder="Enter promotion" required />
-        </td>
-        <td>
-          <input type="text" name="members" placeholder="Enter members" required />
-        </td>
-
-        <td>
-          <input type="text" name="name" placeholder="Enter project name" required />
-        </td>
-        <td>
-          <input type="text" name="url" placeholder="Project URL" required />
-        </td>
-        <td>
-          <button title="add" type="submit">
-            ➕
-          </button>
-          <button title="reset" type="reset">
-            ✖
-          </button>
-        </td>
-      </tr>
-    </tfoot>
+    <footer>
+      <a href="https://github.com/GaciuRadu/teams-networking" target="_blank">
+        📃 API Docs{" "}
+      </a>
+      |<a href="">👨‍💻 Source Code</a>
+    </footer>
   );
 }
 
