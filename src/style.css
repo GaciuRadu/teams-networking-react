@@ -27,6 +27,13 @@ body {
   margin: 0;
   background-color: #e9f6f8;
 }
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
 tbody tr:nth-child(even) {
   background: #f2f2f2;
 }
@@ -43,7 +50,7 @@ tbody tr:nth-child(even) {
   background-color: #ffffff90;
 }
 
-body > section {
+#main {
   flex: 1;
   padding: 15px;
 }
