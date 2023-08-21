@@ -34,6 +34,9 @@ function AppHeader() {
     </header>
   );
 }
+function ContentWrapper() {
+  return <section id="main">...</section>;
+}
 
 function AppFooter() {
   return (
@@ -70,6 +73,7 @@ function App() {
   return (
     <div>
       <AppHeader />
+      <ContentWrapper />
       <AppFooter />
     </div>
   );
