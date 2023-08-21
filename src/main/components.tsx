@@ -1,3 +1,5 @@
+import { TeamsTable } from "../teams/TeamsTable";
+
 function Toolbar() {
   return (
     <div className="tbar">
@@ -17,7 +19,7 @@ export function ContentWrapper() {
   return (
     <section id="main">
       <Toolbar />
-      TODO table...
+      <TeamsTable />
     </section>
   );
 }
