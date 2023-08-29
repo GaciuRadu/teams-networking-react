@@ -109,64 +109,7 @@ export function TeamsTable(props: Props) {
 }
 
 export function TeamsTableWrapper() {
-  const teams: Team[] = [
-    {
-      id: "f5rvqm1689178295237",
-      promotion: "Html",
-      members: "Gaciu Radu",
-      name: "Teams",
-      url: "https://github.com/GaciuRadu/teams-networking",
-      createdBy: "Radu"
-    },
-    {
-      id: "fcrsi71691171132868",
-      promotion: "---REACT",
-      members: "Gaciu Radu",
-      name: "Teams",
-      url: "https://github.com/GaciuRadu/teams-networking",
-      createdBy: "Radu"
-    },
-    {
-      id: "4cvef1691171145666",
-      promotion: "js",
-      members: "FastTrackIT",
-      name: "Web",
-      url: "https://github.com/nmatei/teams-networking-react",
-      createdBy: "Radu"
-    },
-    {
-      id: "r74q2q1691588184869",
-      promotion: "☺️☺️css",
-      members: "Gaciu Radu",
-      name: "Teams",
-      url: "https://github.com/nmatei/teams-networking-react",
-      createdBy: "Radu"
-    },
-    {
-      id: "5w6n4m1691588197285",
-      promotion: "REACT",
-      members: "Gaciu Radu",
-      name: "Teams",
-      url: "https://github.com/GaciuRadu/teams-networking",
-      createdBy: "Radu"
-    },
-    {
-      id: "6ivdo1691588209551",
-      promotion: "js1",
-      members: "FastTrackIT",
-      name: "Web",
-      url: "https://github.com/nmatei/teams-networking-react",
-      createdBy: "Radu"
-    },
-    {
-      id: "2epjvt1691593956038",
-      promotion: "html",
-      members: "Gaciu Radu",
-      name: "Web",
-      url: "https://github.com/nmatei/teams-networking-react",
-      createdBy: "Radu"
-    }
-  ];
+  const teams: Team[] = [];
 
   return (
     <>
