@@ -1,4 +1,4 @@
-import { PropsWithChildren } from "react";
+import React from "react";
 
 type Team = {
   id: string;
@@ -47,7 +47,7 @@ type Props = {
 };
 
 export function TeamsTable(props: Props) {
-  console.info("table props", props);
+  // console.info("table props", props);
 
   return (
     <form id="teamsForm" action="" method="get" className={props.loading ? "loading-mask" : ""}>
@@ -108,8 +108,30 @@ export function TeamsTable(props: Props) {
   );
 }
 
-export function TeamsTableWrapper() {
-  const teams: Team[] = []; // don't know where to take them... 😀😀😀
+type WrapperProps = {};
+type State = {
+  loading: boolean;
+};
 
-  return <TeamsTable loading={true} teams={teams} />;
+export class TeamsTableWrapper extends React.Component<WrapperProps, State> {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true
+    };
+  }
+
+  componentDidMount() {
+    setTimeout(() => {
+      //this.state.loading = false; // loading is  read-only property.
+      this.setState({ loading: false });
+    }, 5000);
+  }
+
+  render() {
+    console.info("render", this.state.loading);
+    const teams: Team[] = []; // don't know where to take them... 😀
+
+    return <TeamsTable loading={this.state.loading} teams={teams} />;
+  }
 }
