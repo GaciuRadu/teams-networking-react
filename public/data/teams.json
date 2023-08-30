@@ -5,7 +5,7 @@
     "members": "Gaciu Cristian",
     "name": "Web",
     "url": "https://github.com/GaciuRadu/teams-networking",
-    "createdBy": "nmatei"
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "w2aal1630347411901",
@@ -13,28 +13,31 @@
     "members": "Gaciu Radu",
     "name": "Web",
     "url": "https://github.com/nmatei/teams-networking",
-    "createdBy": "nmatei"
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "2vsihj1689156507974",
     "promotion": "jS",
     "members": "Gaciu Radu",
     "name": "JS/HTML/CSS",
-    "url": "https://github.com/GaciuRadu/teams-networking"
+    "url": "https://github.com/GaciuRadu/teams-networking",
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "f5rvqm1689178295237",
     "promotion": "Html",
     "members": "Gaciu Radu",
     "name": "Teams",
-    "url": "https://github.com/GaciuRadu/teams-networking"
+    "url": "https://github.com/GaciuRadu/teams-networking",
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "ml54vn1690185956707",
     "promotion": "js1",
     "members": "Gaciu",
     "name": "Teams",
-    "url": "http://localhost:8080/"
+    "url": "http://localhost:8080/",
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "ln91sj1690286780376",
@@ -55,28 +58,32 @@
     "promotion": "css",
     "members": "Gaciu Radu",
     "name": "JS/HTML/CSS",
-    "url": "https://github.com/GaciuRadu/teams-networking"
+    "url": "https://github.com/GaciuRadu/teams-networking",
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "cf78qb1690288647141",
     "promotion": "html",
     "members": "Nicolae Matei",
     "name": "Teams",
-    "url": "https://github.com/nmatei/teams-networking"
+    "url": "https://github.com/nmatei/teams-networking",
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "y6qzs51690360536607",
     "promotion": "REACT",
     "members": "Gaciu Radu",
     "name": "JS/HTML/CSS",
-    "url": "https://github.com/GaciuRadu/teams-networking"
+    "url": "https://github.com/GaciuRadu/teams-networking",
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "koz97e1690544846097",
     "promotion": "a",
     "members": "a",
     "name": "a",
-    "url": "aa"
+    "url": "aa",
+    "createdBy": "GaciuRadu"
   },
   {
     "id": "bp68wj1690545091167",
@@ -90,6 +97,7 @@
     "promotion": "a",
     "members": "a",
     "name": "a",
-    "url": "a"
+    "url": "a",
+    "createdBy": "GaciuRadu"
   }
 ]
